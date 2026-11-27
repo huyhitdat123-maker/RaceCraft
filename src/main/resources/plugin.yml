@@ -1,0 +1,23 @@
+name: RaceCraft
+version: 1.0.0
+main: com.racecraft.RaceCraftPlugin
+api-version: '1.21'
+description: Plugin 16 Chung Toc, Phe Toc, Trung Huyet Mach va Danh Hieu Toc
+commands:
+  toc:
+    description: Mo bang xem thong tin chung toc va tra cuu 16 toc
+    aliases: [race, chungtoc]
+    usage: /toc [set <nguoi_choi> <id_toc>]
+  tiepnhanhuyetmach:
+    description: Chap nhan huyet mach chung toc vua quay duoc
+    usage: /tiepnhanhuyetmach
+  tubohuyetmach:
+    description: Tu bo huyet mach vua quay duoc (bo 2 lan se thanh Phe Toc)
+    usage: /tubohuyetmach
+  givetrung:
+    description: Cap Trung Huyet Mach cho nguoi choi (Admin)
+    permission: racecraft.admin
+    usage: /givetrung <ten_nguoi_choi> [so_luong]
+permissions:
+  racecraft.admin:
+    default: op
