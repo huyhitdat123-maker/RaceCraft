@@ -1,0 +1,6 @@
+# Số lượng Trứng Huyết Mạch cấp duy nhất 1 lần khi người chơi vào server lần đầu
+starter-eggs: 2
+
+# Bật hiển thị danh hiệu tộc trước tên trong Chat, TabList và trên đầu nhân vật
+enable-chat-prefix: true
+enable-tablist-prefix: true
